@@ -32,6 +32,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -42,57 +44,22 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global Continuous Integration and Continuous Delivery (CI/CD) and pipeline automation market is estimated at **$1.7B to $2.1B** for core CI/CD tools, scaling up to **$5.7B to $13.2B** across the broader DevOps delivery toolchain, expanding at a ~14% to 20% CAGR. The sector is **moderately to highly fragmented** rather than winner-take-all—while hyperscale ecosystems (e.g. GitHub Actions, GitLab) drive platform consolidation, specialized needs across mobile builds, Kubernetes GitOps, enterprise compliance, and self-hosted/hybrid infrastructure sustain a diverse, multi-tool landscape.
+
 ## SaaS/Hosted Platforms
 
-
-
-- **[GitHub Actions](https://github.com/features/actions)**
-
-  **CI/CD integrated with GitHub** with a marketplace of reusable actions and native container support. **Pricing**: Free for public repos; private repos get included minutes on Free plan, scaling with paid tiers. **Free tier**: Yes, generous for open source. **Best for**: teams already hosting code on GitHub wanting the tightest integration and largest action ecosystem—**trade-off**: vendor lock-in to GitHub; minute caps can escalate costs for active teams .
-
-
-
-- **[GitLab CI/CD](https://about.gitlab.com/)**
-
-  **Integrated CI/CD within GitLab** covering source control, pipelines, registry, and environments in one platform. **Auto DevOps** automates language detection, security tests (SAST, DAST, dependency scanning), and Kubernetes deployment with Review Apps . **Pricing**: Free tier with 400 compute minutes/month; paid tiers scale. **Free tier**: Yes, limited minutes. **Best for**: teams wanting a single tool for repo, CI, and deployment—**trade-off**: strong dependency on GitLab ecosystem; complex YAML at scale .
-
-
-
-- **[CircleCI](https://circleci.com/)**
-
-  **Cloud CI/CD platform** known for speed and first-class Docker support. **Pricing**: Free tier with credits; paid plans by usage. **Free tier**: Yes, limited. **Best for**: teams prioritizing fast builds and Docker-native workflows—**trade-off**: credit model can become expensive at scale.
-
-
-
-- **[Travis CI](https://www.travis-ci.com/)**
-
-  **Hosted CI** with simple `.travis.yml` configuration, historically popular in open source. **Pricing**: Free for open-source repos; paid plans for private. **Free tier**: Yes, for open source. **Best for**: simple open-source projects wanting minimal setup—**trade-off**: lost most mindshare after pricing changes; smaller ecosystem than GitHub Actions.
-
-
-
-- **[Bamboo](https://www.atlassian.com/software/bamboo)** (Atlassian)
-
-  **CI/CD server** integrated with Jira and Bitbucket. **Pricing**: Quote-only; tiered by agents. **Free tier**: None. **Best for**: Atlassian-centric organizations wanting native Jira integration—**trade-off**: enterprise pricing; smaller plugin ecosystem than Jenkins.
-
-
-
-- **[TeamCity](https://www.jetbrains.com/teamcity/)** (JetBrains)
-
-  **CI/CD server** with strong .NET and JVM support. **Pricing**: Free tier for small teams; paid by agents. **Free tier**: Yes, limited build configurations. **Best for**: JetBrains-standardized teams wanting IDE-consistent CI—**trade-off**: less compelling outside JetBrains ecosystem.
-
-
-
-- **[Bitrise](https://www.bitrise.io/)**
-
-  **Mobile CI/CD platform** for iOS and Android. **Pricing**: Free tier; paid by concurrency. **Free tier**: Yes, limited. **Best for**: mobile teams wanting mobile-specific build and test workflows—**trade-off**: mobile-focused; not general-purpose.
-
-
-
-- **[Codefresh](https://codefresh.io/)** (Acquired by Octopus Deploy)
-
-  **Kubernetes-native CI/CD** with Argo CD integration. **Pricing**: Quote-only; bundled with Octopus. **Free tier**: Limited trial. **Best for**: teams wanting managed Argo CD with CI capabilities—**trade-off**: acquisition integration in progress.
-
-
+| Platform | Company Valuation / Revenue | Starting Price | Free Tier Limits | Focus / Best For | Trade-offs |
+|:---|:---|:---|:---|:---|:---|
+| **[GitHub Actions](https://github.com/features/actions)** | Microsoft (Market Cap: ~$3.9T; GitHub ARR: ~$2B+) | $4/user/month (Team plan; Free plan available) | Free for public repos (unlimited minutes); 2,000 Linux build minutes/month for private repos | Native GitHub workflows, massive community actions ecosystem | Vendor lock-in to GitHub; minute consumption costs escalate on macOS/Windows |
+| **[Bamboo](https://www.atlassian.com/software/bamboo)** | Atlassian (Market Cap: ~$52B; Revenue: ~$4.4B) | $1,200/year (1 remote build agent, unlimited users) | 30-day free trial (Data Center full evaluation license; 0 days free forever) | Atlassian ecosystem integration (Jira, Bitbucket) | Legacy agent-tier pricing model; Data Center maintenance overhead; restricted new sales |
+| **[GitLab CI/CD](https://about.gitlab.com/)** | GitLab Inc. (Market Cap: ~$9.2B; ARR: ~$750M+) | $29/user/month (Premium plan; Free plan available) | 400 compute minutes/month (shared runners); unlimited minutes on self-hosted runners | All-in-one DevSecOps platform with integrated Auto DevOps | Complex YAML at scale; steep step up to paid tier pricing |
+| **[Travis CI](https://www.travis-ci.com/)** | Idera, Inc. (Valuation: ~$3B; Revenue: ~$100M+) | $15/month (Usage-based Starter plan) | 14-day free trial with 10,000 credits (~1,000 Linux build min); free build credits for vetted OSS on request | Simple configuration for open-source repositories and legacy stacks | Lost significant developer mindshare after pricing overhauls; limited enterprise features |
+| **[CircleCI](https://circleci.com/)** | CircleCI (Valuation: ~$1.7B; Estimated ARR: ~$55M+) | $15/month (Performance tier with 30,000 credits, up to 5 users) | 30,000 credits/month (approx. 3,000 Linux Medium minutes); up to 5 active users and 30 concurrent jobs (0 rollover) | Fast, container-native builds with Docker Layer Caching (DLC) | Credit consumption model can be unpredictable; macOS/Windows agents burn credits rapidly |
+| **[TeamCity](https://www.jetbrains.com/teamcity/)** | JetBrains (Bootstrapped; Annual Revenue: ~$700M+) | $45/month (TeamCity Cloud, up to 3 committers) | 14-day cloud trial (with 12,000 build credits); Free forever for on-premises (Professional: 3 build agents, 100 configurations) | JetBrains IDE ecosystem, deep .NET and JVM build pipelines | Cloud pricing scales by active committers; less appealing outside JetBrains tooling |
+| **[Codefresh](https://codefresh.io/)** | Octopus Deploy (Valuation: ~$625M; ARR: ~$83M) | $99/month (Pro tier; Free plan available) | 500 build minutes/month and 1 concurrent build; 30-day free trial for Enterprise features | Kubernetes-native CI/CD, GitOps delivery powered by Argo | Transitioning under Octopus Deploy umbrella; targeted primarily at cloud-native/K8s stacks |
+| **[Bitrise](https://www.bitrise.io/)** | Bitrise (Total Funding: ~$100M; Estimated ARR: ~$25M-$35M) | $36/month (Starter tier billed annually, or $99/month monthly) | 300 build credits/month, 1 concurrency, 1 team member, 1 private app (Hobby plan) | Mobile CI/CD automation dedicated to iOS, Android, Flutter, and React Native | Mobile-specialized platform; unsuited for general-purpose web/backend microservices |
 
 ## Open-Source GitHub Projects
 
