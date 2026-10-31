@@ -1,54 +1,50 @@
-# Awesome-Continuous-Integration-Deployment-CI-CD
+<div align="center">
 
-# Awesome-Continuous-Integration-Deployment-CI-CD
+<img src="./assets/banner.svg" alt="Awesome Continuous Integration &amp; Deployment CI/CD" width="100%" />
 
-**Top Continuous Integration Deployment CI CD (Opensource) 🌟 Star if you like it! 🌟**
+# 🚀 Awesome Continuous Integration & Deployment (CI/CD)
 
+**Curated Index of Pipeline Orchestration, GitOps Delivery, Self-Hosted Runners & Container-Native Build Engines** 🌟
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Continuous-Integration-Deployment-CI-CD/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Continuous-Integration-Deployment-CI-CD?style=flat-square&color=gold" alt="Stars Badge"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Continuous-Integration-Deployment-CI-CD/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Continuous-Integration-Deployment-CI-CD?style=flat-square&color=blue" alt="Forks Badge"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Continuous-Integration-Deployment-CI-CD/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Continuous-Integration-Deployment-CI-CD/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Continuous-Integration-Deployment-CI-CD?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+---
 
-*Focused on Pipeline Orchestration, GitOps Delivery, Self-Hosted Runners & Container-Native Builds*
+*Continuous Integration (CI) and Continuous Deployment / Delivery (CD) automate building, testing, linting, packaging, and shipping modern cloud-native applications. Whether managing multi-tenant Kubernetes clusters via declarative GitOps controllers, deploying fast microservices with lightweight Docker-native engines, or scaling enterprise pipelines across distributed runners, this guide catalogs top SaaS platforms and open-source GitHub projects.*
 
-**Last updated: November 2026**
+**📅 Last updated: November 2026**
 
+</div>
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Continuous Integration & Deployment (CI/CD)**. These tools enable teams to automate building, testing, and deploying software—from fully managed cloud pipelines with deep Git integration to self-hosted runners and Kubernetes-native GitOps controllers that give organizations complete control over their delivery infrastructure.
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [Top Projects Ranked by GitHub Stars](#top-projects-ranked-by-github-stars)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
-**Examples** include GitHub Actions, GitLab CI/CD, Jenkins, CircleCI, Travis CI, Bamboo, TeamCity, Argo CD, Bitrise, and Codefresh (the category leaders in commercial and open-source space).
-
-
-
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted CI/CD, container-native pipelines, and open GitOps infrastructure. **Critical note**: The open-source CI/CD landscape is mature and deeply fragmented—**Jenkins** remains the most extensible with 1,800+ plugins, **Argo CD** dominates GitOps continuous delivery for Kubernetes, **Tekton** provides the vendor-neutral cloud-native framework, and **Woodpecker CI** offers the lightest self-hosted footprint. No single open-source tool matches GitHub Actions' marketplace ecosystem, but for self-hosted control and GitOps workflows, the options are production-proven at scale.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global Continuous Integration and Continuous Delivery (CI/CD) and pipeline automation market is estimated at **$1.7B to $2.1B** for core CI/CD tools, scaling up to **$5.7B to $13.2B** across the broader DevOps delivery toolchain, expanding at a ~14% to 20% CAGR. The sector is **moderately to highly fragmented** rather than winner-take-all—while hyperscale ecosystems (e.g. GitHub Actions, GitLab) drive platform consolidation, specialized needs across mobile builds, Kubernetes GitOps, enterprise compliance, and self-hosted/hybrid infrastructure sustain a diverse, multi-tool landscape.
 
-## SaaS/Hosted Platforms
+---
+
+## ☁️ SaaS & Hosted Platforms
 
 | Platform | Company Valuation / Revenue | Starting Price | Free Tier Limits | Focus / Best For | Trade-offs |
 |:---|:---|:---|:---|:---|:---|
@@ -61,126 +57,144 @@ The global Continuous Integration and Continuous Delivery (CI/CD) and pipeline a
 | **[Codefresh](https://codefresh.io/)** | Octopus Deploy (Valuation: ~$625M; ARR: ~$83M) | $99/month (Pro tier; Free plan available) | 500 build minutes/month and 1 concurrent build; 30-day free trial for Enterprise features | Kubernetes-native CI/CD, GitOps delivery powered by Argo | Transitioning under Octopus Deploy umbrella; targeted primarily at cloud-native/K8s stacks |
 | **[Bitrise](https://www.bitrise.io/)** | Bitrise (Total Funding: ~$100M; Estimated ARR: ~$25M-$35M) | $36/month (Starter tier billed annually, or $99/month monthly) | 300 build credits/month, 1 concurrency, 1 team member, 1 private app (Hobby plan) | Mobile CI/CD automation dedicated to iOS, Android, Flutter, and React Native | Mobile-specialized platform; unsuited for general-purpose web/backend microservices |
 
-## Open-Source GitHub Projects
-
-
-
-- **[Jenkins](https://github.com/jenkinsci/jenkins)**
-
-  **Self-contained automation server with the largest plugin ecosystem** (MIT) — **the most extensible open-source CI/CD tool**, with **1,800+ plugins** covering virtually every integration imaginable . **Features**: Pipeline-as-code via Jenkinsfile (Groovy DSL); distributed builds with controller/agent architecture; Kubernetes plugin for dynamic agents; mature RBAC and authentication integrations. **Tech stack**: Java. **Deploy**: Self-hosted (WAR file, Docker, Kubernetes). **Trade-off**: **Legacy UI/UX and complex maintenance**; plugin compatibility issues; not cloud-native without plugins . **Best for**: organizations with complex multi-tech legacy pipelines needing maximum flexibility and existing Jenkins expertise—willing to accept maintenance overhead .
-
-
-
-- **[Argo CD](https://github.com/argoproj/argo-cd)**
-
-  **Declarative GitOps continuous delivery for Kubernetes** (Apache 2.0) — **the standard for Kubernetes GitOps delivery**, leading with automatic declarative reconciliation . **Features**: **Git as source of truth** with continuous drift detection and auto-correction; **multi-cluster management** from a central control plane; **rich web UI** with visual diffing of desired vs. live state ; SSO/RBAC; supports Helm, Kustomize, and Jsonnet; canary and blue/green via Argo Rollouts. **Tech stack**: Go, Kubernetes. **Deploy**: Self-hosted (runs in Kubernetes cluster). **Trade-off**: **CD only—needs a separate CI tool** for build and test ; resource-intensive at scale. **Best for**: teams adopting GitOps for Kubernetes deployments—the most mature open-source CD tool with the best UI for multi-cluster visibility .
-
-
-
-- **[Flux CD](https://github.com/fluxcd/flux2)**
-
-  **GitOps operator for Kubernetes** (Apache 2.0) — **the lightweight, CLI-native alternative to Argo CD** . **Features**: **Modular controllers** (source, kustomize, helm, notification, image automation); runs inside each cluster for autonomy; **strong multi-tenancy**; **built-in image update automation**; Helm controller for native Helm workflows . **Tech stack**: Go, Kubernetes. **Deploy**: Self-hosted (in-cluster controllers). **Trade-off**: **No bundled UI**—CLI-first; may require more effort for visual troubleshooting . **Best for**: lean, CLI-native platform teams wanting composable GitOps controllers with automated image updates—especially those who do not need a dashboard .
-
-
-
-- **[Tekton](https://github.com/tektoncd/pipeline)**
-
-  **Kubernetes-native CI/CD framework** (Apache 2.0) — **the vendor-neutral standard for cloud-native pipelines**, backed by CD Foundation . **Features**: **Kubernetes CRDs** for Tasks, Pipelines, and PipelineRuns; highly composable and reusable; **event-driven architecture** with Triggers; multi-cloud portability; Tekton Dashboard for visualizing PipelineRuns . **Tech stack**: Go, Kubernetes. **Deploy**: Self-hosted (Kubernetes required). **Trade-off**: **Steep learning curve**—requires building pipelines from scratch; fewer out-of-the-box integrations; less opinionated means more configuration . **Best for**: teams building custom cloud-native pipelines on Kubernetes needing maximum portability and vendor neutrality—especially in Red Hat/OpenShift ecosystems .
-
-
-
-- **[Woodpecker CI](https://github.com/woodpecker-ci/woodpecker)**
-
-  **Lightweight, Docker-native CI** (Apache 2.0) — **the easiest self-hosted CI to set up**, created as a community fork of Drone CI after license changes . **Features**: Simple `.woodpecker.yml` configuration—each step runs in a Docker container; **single binary** server and agents; multi-platform agents (Linux, macOS, Windows, ARM); works with **Gitea, GitHub, GitLab, Bitbucket, and Forgejo**; v3.0 with redesigned UI . **Resource usage**: Server ~60 MB RAM; Agent ~40 MB RAM . **Tech stack**: Go. **Deploy**: Self-hosted (Docker, single binary). **Trade-off**: **Smaller ecosystem than Jenkins**—fewer plugins; no built-in artifact storage or advanced caching . **Best for**: small teams using Gitea/Forgejo wanting simple, Docker-native CI with minimal overhead—the lightest self-hosted entry point .
-
-
-
-- **[Gitea Actions](https://github.com/go-gitea/gitea)**
-
-  **GitHub Actions-compatible CI built into Gitea** (MIT) — **the simplest path to GitHub Actions compatibility on self-hosted Git** . **Features**: **GitHub Actions workflow compatibility**—reuse existing workflows and many marketplace actions; **no separate CI service to deploy**—Actions is built into Gitea; Act runner based on the `act` project; runner daemon ~80 MB RAM . **Tech stack**: Go. **Deploy**: Gitea 1.21+ with Actions enabled. **Trade-off**: **Not all GitHub Actions features are supported**—complex workflows may need adjustments; newer and less mature than Woodpecker or Jenkins . **Best for**: teams already using Gitea wanting GitHub Actions-style CI without running a separate CI system.
-
-
-
-- **[Drone CI](https://github.com/drone/drone)**
-
-  **Container-native CI** (Apache 2.0 for older versions) — **the lightweight predecessor to Woodpecker**, with a simple YAML syntax and plugin architecture . **Features**: Every step runs in a container; simple `.drone.yml`; plugin ecosystem; integrates with GitHub, GitLab, Bitbucket, and Gitea. **Tech stack**: Go. **Deploy**: Self-hosted. **Trade-off**: **License changed to source-available for newer versions**; Woodpecker is the community fork . **Best for**: teams wanting Drone's original model via the Woodpecker fork—do not adopt new Drone versions without license review.
-
-
-
-- **[Concourse](https://github.com/concourse/concourse)**
-
-  **Container-based automation system** (Apache 2.0) — **the most opinionated open-source CI/CD** with pipelines as resources and jobs . **Features**: Every step runs in a container; pipelines declared as resources and jobs; no plugins—built-in resource types; strong isolation; visual pipeline UI. **Tech stack**: Go. **Deploy**: Self-hosted. **Trade-off**: **Opinionated model**—less flexible than Jenkins; smaller community . **Best for**: teams wanting a clean, container-first CI/CD model without plugin sprawl.
-
-
-
-- **[GoCD](https://github.com/gocd/gocd)**
-
-  **Continuous delivery server with built-in value-stream maps** (Apache 2.0) — **the most CD-focused open-source tool** . **Features**: **Pipelines and value-stream maps built in**—no plugins needed for CD visualization; modeling complex workflows; active development. **Tech stack**: Java. **Deploy**: Self-hosted. **Trade-off**: **CI capabilities are secondary**—best suited for CD orchestration; UI is functional but dated . **Best for**: teams needing strong CD visualization and dependency management—especially those modeling complex deployment pipelines.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Jenkins X** — Kubernetes-native Jenkins with GitOps promotion, preview environments, and Tekton integration (Apache 2.0). **Note**: Higher learning curve; less mature than core Jenkins . **Best for**: teams migrating from Jenkins to Kubernetes-native workflows.
-
-- **Pipewright** — Single Go binary self-hosted CI/CD + deployment + ops platform (license per repo). Pipeline-as-code via `.pipewright.yml` with DAG scheduling, container builds, SSH deployment, and monitoring . **Note**: Newer project; single binary with SQLite/MySQL. **Best for**: teams wanting an all-in-one lightweight self-hosted platform without external dependencies.
-
-- **Dagger** — Programmable CI/CD engine (Apache 2.0). Pipelines in Go, Python, TypeScript, and Java—not YAML; native LLM integration and MCP server for agentic workflows . **Note**: Different mental model; requires programming knowledge. **Best for**: development teams wanting testable pipelines in real languages, especially AI-integrated CI.
-
-
-
-**Frameworks for building custom systems**: Combine **Argo CD** for GitOps continuous delivery with **GitHub Actions** or **GitLab CI** for CI, **Tekton** for Kubernetes-native pipelines, and **Woodpecker CI** or **Gitea Actions** for lightweight self-hosted CI—creating a CI/CD stack matched to each team's infrastructure and Git hosting. **None of these match GitHub Actions' marketplace ecosystem**, but for self-hosted control and GitOps workflows, the open-source options are production-proven at scale.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- CI/CD platforms handling code and deployment credentials must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls and secret management.
-
-- **The "CI" vs. "CD (GitOps)" vs. "CI/CD platform" vs. "framework" distinction is critical.** **GitHub Actions, GitLab CI, CircleCI, Travis CI, Bamboo, TeamCity, and Bitrise** are **CI or CI/CD platforms**—they build, test, and often deploy. **Argo CD and Flux CD** are **GitOps CD controllers**—they deploy to Kubernetes from Git, but do not build or test . **Tekton** is a **CI/CD framework**—it provides primitives for building pipelines on Kubernetes . **Jenkins, Woodpecker, Gitea Actions, and Drone** are **CI servers**—they execute pipelines you define. **Choose based on whether you need build, deploy, or both.**
-
-- **Argo CD vs. Flux: UI vs. CLI.** Argo CD leads with a polished web UI, application-centric model, and strong multi-cluster visibility . Flux is lightweight, CLI-native, and modular—better for teams that prefer composable controllers and automated image updates without a dashboard . **Large multi-team orgs: Argo CD. Lean platform teams: Flux.**
-
-- **Jenkins remains relevant for complex legacy pipelines** with 1,800+ plugins . **The trade-off**: legacy UI, complex maintenance, and plugin compatibility issues . **Do not migrate off Jenkins without a clear replacement strategy**—its flexibility is still unmatched for heterogeneous environments.
-
-- **Woodpecker CI and Gitea Actions are the easiest self-hosted entry points**—Docker-native, simple YAML, minimal resource usage (~40–80 MB RAM) . **Woodpecker** supports multi-forge (Gitea, GitHub, GitLab, Bitbucket) ; **Gitea Actions** offers GitHub Actions compatibility but is Gitea-only .
-
-- **Tekton is the vendor-neutral choice for cloud-native pipelines**—Kubernetes CRDs, CD Foundation backing, and maximum portability . **The trade-off**: steep learning curve and more configuration required .
-
-- **Pricing opacity varies.** GitHub Actions, GitLab CI, CircleCI, Travis CI, Bamboo, TeamCity, Bitrise, and Codefresh publish tiered pricing or quote-based models. Jenkins, Argo CD, Flux, Tekton, Woodpecker, and Gitea Actions are free open source. **Validate with direct vendor conversations against your team size and build volume.**
-
-- Self-hosted open-source solutions require proper infrastructure (Kubernetes for Argo CD/Flux/Tekton, servers for Jenkins/Woodpecker), security hardening for build credentials, and ongoing maintenance. **CI/CD pipelines handle code and deployment secrets**—ensure your deployment meets your organization's security standards and includes secret management before automating production deployments.
-
-
+---
+
+## 🔓 Open-Source GitHub Projects
+
+The open-source CI/CD ecosystem empowers teams to avoid vendor lock-in, maintain complete control over sensitive infrastructure credentials, and run cost-efficient distributed runners. Below is the full directory of open-source projects, sorted in descending order by GitHub stargazers.
+
+### Top Projects Ranked by GitHub Stars
+
+1. **[act](https://github.com/nektos/act)** [![GitHub stars](https://img.shields.io/github/stars/nektos/act?style=social&color=white)](https://github.com/nektos/act/stargazers) ⚡
+   - **Run your GitHub Actions locally** (MIT). Test your CI workflows locally on your development machine inside Docker containers without triggering pull requests or pushing commits.
+   - **Features**: Fast feedback loop, exact execution of `.github/workflows`, full runner environment customization, offline debugging.
+   - **Tech stack**: Go, Docker.
+   - **Best for**: Developers wanting rapid local iteration before pushing workflows to GitHub.
+
+2. **[Gitea](https://github.com/go-gitea/gitea)** [![GitHub stars](https://img.shields.io/github/stars/go-gitea/gitea?style=social&color=white)](https://github.com/go-gitea/gitea/stargazers) 🍵
+   - **Painless self-hosted Git service with integrated CI/CD Actions** (MIT). Provides full GitHub Actions workflow compatibility on private infrastructure.
+   - **Features**: Built-in CI engine (`act_runner`), low resource footprint (~80 MB RAM daemon), code review, issue tracking, and container/package registries.
+   - **Tech stack**: Go, SQLite/MySQL/PostgreSQL.
+   - **Best for**: Self-hosted engineering teams looking for an all-in-one GitHub replacement with built-in CI/CD.
+
+3. **[Drone CI](https://github.com/drone/drone)** [![GitHub stars](https://img.shields.io/github/stars/drone/drone?style=social&color=white)](https://github.com/drone/drone/stargazers) 🛸
+   - **Pioneering container-native CI platform** (Apache 2.0 / PolyForm). Runs every build and test step within ephemeral Docker containers.
+   - **Features**: Clean `.drone.yml` declarative configuration, modular plugin ecosystem, multi-scm support (GitHub, GitLab, Gitea, Bitbucket).
+   - **Tech stack**: Go, Docker.
+   - **Best for**: Teams seeking lightweight, containerized build pipelines with simple YAML configurations.
+
+4. **[Jenkins](https://github.com/jenkinsci/jenkins)** [![GitHub stars](https://img.shields.io/github/stars/jenkinsci/jenkins?style=social&color=white)](https://github.com/jenkinsci/jenkins/stargazers) ☕
+   - **The most extensible open-source automation server** (MIT). Offers unmatched flexibility with **1,800+ plugins** covering virtually every enterprise technology stack.
+   - **Features**: Pipeline-as-code via Jenkinsfile (Groovy DSL), controller/agent distributed architecture, dynamic Kubernetes agents, mature RBAC and enterprise SSO.
+   - **Tech stack**: Java.
+   - **Best for**: Organizations with complex legacy pipelines and hybrid cloud environments requiring deep custom integrations.
+
+5. **[Argo CD](https://github.com/argoproj/argo-cd)** [![GitHub stars](https://img.shields.io/github/stars/argoproj/argo-cd?style=social&color=white)](https://github.com/argoproj/argo-cd/stargazers) 🐙
+   - **Declarative GitOps continuous delivery controller for Kubernetes** (Apache 2.0). The industry standard for declarative cluster synchronization.
+   - **Features**: Git as single source of truth, automated live drift detection and auto-sync, rich multi-cluster web UI, Canary/Blue-Green deployments via Argo Rollouts.
+   - **Tech stack**: Go, Kubernetes CRDs.
+   - **Best for**: Cloud-native teams deploying applications to Kubernetes clusters via GitOps principles.
+
+6. **[Dagger](https://github.com/dagger/dagger)** [![GitHub stars](https://img.shields.io/github/stars/dagger/dagger?style=social&color=white)](https://github.com/dagger/dagger/stargazers) 🗡️
+   - **Programmable CI/CD engine that runs pipelines as code** (Apache 2.0). Author CI/CD pipelines in real programming languages (Go, Python, TypeScript) instead of complex YAML.
+   - **Features**: BuildKit-powered caching, local/cloud parity, native LLM/MCP agentic integrations, reusable pipeline functions.
+   - **Tech stack**: Go, GraphQL, BuildKit.
+   - **Best for**: Development teams wanting testable, reusable pipeline logic written in actual code with advanced caching.
+
+7. **[Earthly](https://github.com/earthly/earthly)** [![GitHub stars](https://img.shields.io/github/stars/earthly/earthly?style=social&color=white)](https://github.com/earthly/earthly/stargazers) 🌍
+   - **Super simple build framework with fast, repeatable builds** (BSL/Apache 2.0). Combines the best of Dockerfile and Makefile for hermetic builds.
+   - **Features**: Container-isolated execution, automatic target parallelization, global build caching, runs identically on developer laptops and any CI provider.
+   - **Tech stack**: Go, BuildKit.
+   - **Best for**: Teams struggling with "works on my machine but breaks in CI" build inconsistencies.
+
+8. **[Spinnaker](https://github.com/spinnaker/spinnaker)** [![GitHub stars](https://img.shields.io/github/stars/spinnaker/spinnaker?style=social&color=white)](https://github.com/spinnaker/spinnaker/stargazers) 🚢
+   - **Multi-cloud continuous delivery platform** (Apache 2.0). Originally created by Netflix for enterprise-grade, high-velocity cloud deployments.
+   - **Features**: Sophisticated deployment strategies (Canary, Blue/Green, Rolling), automated canary analysis via Kayenta, multi-cloud deployment (AWS, GCP, Azure, Kubernetes).
+   - **Tech stack**: Java, Go, React.
+   - **Best for**: Large enterprise engineering groups orchestrating complex multi-cloud continuous releases.
+
+9. **[Tekton Pipelines](https://github.com/tektoncd/pipeline)** [![GitHub stars](https://img.shields.io/github/stars/tektoncd/pipeline?style=social&color=white)](https://github.com/tektoncd/pipeline/stargazers) 🧱
+   - **Cloud-native, Kubernetes-standard CI/CD framework** (Apache 2.0). Governed by the Continuous Delivery Foundation (CDF).
+   - **Features**: Native Kubernetes CRDs (Tasks, Pipelines, PipelineRuns), decoupled triggers, vendor-neutral building blocks for internal developer platforms.
+   - **Tech stack**: Go, Kubernetes.
+   - **Best for**: Platform engineering teams constructing custom, Kubernetes-native CI/CD engines.
+
+10. **[Flux CD](https://github.com/fluxcd/flux2)** [![GitHub stars](https://img.shields.io/github/stars/fluxcd/flux2?style=social&color=white)](https://github.com/fluxcd/flux2/stargazers) 🔄
+    - **Open and extensible continuous delivery solution for Kubernetes** (Apache 2.0). CNCF graduated GitOps operator.
+    - **Features**: Composable controllers (Kustomize, Helm, Source, Notification, Image Automation), multi-tenant security model, automated container image updates.
+    - **Tech stack**: Go, Kubernetes.
+    - **Best for**: Lean platform teams that prefer modular, CLI-native GitOps operations without heavy UI overhead.
+
+11. **[Woodpecker CI](https://github.com/woodpecker-ci/woodpecker)** [![GitHub stars](https://img.shields.io/github/stars/woodpecker-ci/woodpecker?style=social&color=white)](https://github.com/woodpecker-ci/woodpecker/stargazers) 🐦
+    - **Lightweight, community-driven Docker-native CI engine** (Apache 2.0). The community fork of Drone CI.
+    - **Features**: Ultra-low memory footprint (~60 MB RAM server / ~40 MB RAM agent), multi-platform runners (Linux, macOS, Windows, ARM), clean modern dashboard.
+    - **Tech stack**: Go, Docker.
+    - **Best for**: Small-to-medium teams looking for a fast, straightforward, 100% open-source self-hosted CI pipeline.
+
+12. **[Concourse CI](https://github.com/concourse/concourse)** [![GitHub stars](https://img.shields.io/github/stars/concourse/concourse?style=social&color=white)](https://github.com/concourse/concourse/stargazers) 🚂
+    - **Continuous automation system built on pipeline resources and jobs** (Apache 2.0).
+    - **Features**: Strict declarative semantics where all pipeline state is stored in resources, visual interactive pipeline topology dashboard, stateless workers.
+    - **Tech stack**: Go, Elm.
+    - **Best for**: Teams desiring an uncompromising, deterministic pipeline model without plugin sprawl.
+
+13. **[GoCD](https://github.com/gocd/gocd)** [![GitHub stars](https://img.shields.io/github/stars/gocd/gocd?style=social&color=white)](https://github.com/gocd/gocd/stargazers) 🚦
+    - **Continuous delivery server with end-to-end Value Stream Mapping** (Apache 2.0).
+    - **Features**: Native pipeline dependency modeling, visual value-stream maps (VSM) out of the box, automated promotion triggers.
+    - **Tech stack**: Java, Ruby.
+    - **Best for**: Teams that prioritize visualizing dependencies and compliance audit trails across multi-stage release cycles.
+
+14. **[Jenkins X](https://github.com/jenkins-x/jx)** [![GitHub stars](https://img.shields.io/github/stars/jenkins-x/jx?style=social&color=white)](https://github.com/jenkins-x/jx/stargazers) 🧬
+    - **Cloud-native automated CI/CD for Kubernetes** (Apache 2.0). Reimagines Jenkins for modern cloud infrastructure using Tekton and GitOps.
+    - **Features**: Automated preview environments on Pull Requests, automated versioning with release notes, GitOps-based environment promotions.
+    - **Tech stack**: Go, Kubernetes, Helm.
+    - **Best for**: Kubernetes-first organizations wanting automated GitOps pipelines and PR preview environments.
+
+15. **[Screwdriver](https://github.com/screwdriver-cd/screwdriver)** [![GitHub stars](https://img.shields.io/github/stars/screwdriver-cd/screwdriver?style=social&color=white)](https://github.com/screwdriver-cd/screwdriver/stargazers) 🪛
+    - **Open source build platform for continuous delivery at scale** (BSD-3-Clause). Built by Yahoo for massive scale.
+    - **Features**: Dynamic pipeline DAGs, microservices event triggering, shared pipeline templates, native Docker execution.
+    - **Tech stack**: Node.js, Go.
+    - **Best for**: Large organizations running complex, high-concurrency microservices release pipelines.
 
 ---
 
+## 🤝 How to Contribute
 
+Contributions are warmly welcomed! Help make this curated repository the most complete and accurate guide for developer workflows:
 
-**Made for developers, DevOps teams, and organizations building transparent CI/CD automation solutions.**
+1. 🍴 **Fork the repo**.
+2. 🌿 **Create a feature branch**: `git checkout -b feature/new-tool-entry`.
+3. 📝 **Add or edit entries in `README.md`**: Follow existing formatting (include name, URL, star badge, concise description, features, tech stack, and best-for recommendation).
+4. 📬 **Submit a Pull Request** with a brief summary of why the tool should be included.
 
-Let's make Continuous Integration & Deployment more open, data-driven, and pipeline-friendly.
+---
+
+## 💖 Support & Sponsorship
+
+If this curated CI/CD repository helps you or your team make informed DevOps decisions, streamline your infrastructure, or discover awesome tools, please consider supporting continued maintenance:
+
+- ⭐ **Star this repository** on GitHub to increase visibility.
+- 🍴 **Fork and share** with fellow developers, DevOps engineers, and tech leads.
+- ☕ **Sponsor or buy a coffee**: Visit the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) to fuel ongoing curation and open-source contributions.
+
+Thank you to all our stargazers and contributors for keeping the continuous integration and delivery ecosystem vibrant! 🙌
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Continuous-Integration-Deployment-CI-CD&type=date&legend=top-left)](https://saar-history.dera.page/#ishandutta2007/Awesome-Continuous-Integration-Deployment-CI-CD&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement of any single product.
+- CI/CD platforms handling source code and deployment credentials must strictly comply with data protection regulations (GDPR, SOC2, ISO 27001) and enforce least-privilege secret management.
+- **CI vs. CD (GitOps) vs. Frameworks**: Understand the differences—tools like GitHub Actions, Jenkins, and CircleCI handle build and test orchestration; Argo CD and Flux CD handle declarative Kubernetes state synchronization; Tekton and Dagger provide programmatic primitives to build bespoke CI/CD systems.
+- Always verify up-to-date pricing, compute consumption, and licensing terms with official vendor documentation prior to making enterprise architecture decisions.
+
+---
+
+<div align="center">
+  <b>Built with ❤️ for developers, DevOps teams, and platform architects automating the future of software delivery.</b>
+</div>
